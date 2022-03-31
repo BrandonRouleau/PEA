@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="decroption" content="guitar store">
+    <meta name="keywords" content="guitar, tutorial, guitar store, guitars">
+    <meta name="author" content="Brandon Rouleau">
+    <title>Guitar Basics</title>
+    <link href="./styles/site.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+         <h1 class="header-title">Guitar Basics</h1>
+    </header>
+
+    <div class="welcome">
+        <h1 class="welcome-title">Welcome to Guitar Basics</h1>
+        <p class="welcome-subtitle">Contact</p>
+    </div>
+
+
+
+    <nav class="nav">
+        <ul class="nav-list">
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./hours.html">Hours</a></li>
+            <li><a href="./products.html">Products</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./links.html">Links</a></li>
+            <li><a href="./staff.html">Staff</a></li>
+            <li class="mobile" id="testimonies"><a href="./testimonies.html">Testimonies</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <br><br>
+        <h1>Contact Us</h1>
+        <br><br>
+        <label for="lname" class="textlabel">Last Name: </label><input type="text" id="lname" name="lname" maxlength="30" placeholder="Last Name">
+        <br><br>
+        <label for="fname" class="textlabel">First Name: </label><input type="text" id="fname" name="fname" maxlength="25" placeholder="First Name">
+        <br><br>
+        <label for="email" class="textlabel">Email: </label><input type="email" id="email" name="email" size="50"  placeholder="Email">
+        <br><br>
+        
+        <br><br>
+        <fieldset>
+            <legend>What Type of Guitar do you use?</legend>
+        <input type="radio" name="rg1" id="rg1-1" value="1"><label for="rg1-1" class="checklabel">Strat</label><br>
+        <input type="radio" name="rg1" id="rg1-2" value="2"><label for="rg1-2" class="checklabel">Les Paul</label><br>
+        <input type="radio" name="rg1" id="rg1-3" value="3"><label  for="rg1-3" class="checklabel">Telecaster</label><br>
+        <input type="radio" name="rg1" id="rg1-4" value="4"><label for="rg1-4" class="checklabel">Acoustic</label><br>
+        <input type="radio" name="rg1" id="rg1-5" value="5"><label for="rg1-5" class="checklabel">Classical</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>What is Your Price Range?</legend>
+            <input type="checkbox" id="chk_1" name="chk_1"><label for="chk_1" class="checklabel">$300 - $600</label><br>
+            <input type="checkbox" id="chk_2" name="chk_2"><label for="chk_2" class="checklabel">$600 - $1,000</label><br>
+            <input type="checkbox" id="chk_3" name="chk_3"><label for="chk_3" class="checklabel">$1,000 - $2,000</label><br>
+            <input type="checkbox" id="chk_4" name="chk_4"><label for="chk_4" class="checklabel">$2,000 - Max</label><br>
+        </fieldset>
+        <br><br>
+        <fieldset>
+        <legend>Leave Your Questions Here!</legend>
+        <textarea id="qu" name="qu" rows="10" cols="60"></textarea>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>How did you find out about us?</legend>
+        <select>
+            <optgroup label="Internet">
+            <option>Other</option>
+            <option>Instagram</option>
+            <option>Tiktok</option>
+            <option>Youtube</option>
+            <option>Sarch Engine (google, firefox ect.)</option>
+            </optgroup>
+            <optgroup label="Non-Internet">
+                <option>Word of mouth</option>
+                <option>Passing by our establishment</option>
+                <option>seeing someone with our branded merchandise</option>
+                <option>Other</option>
+                </optgroup>
+        </select>
+    </fieldset>
+    <br><br>
+        <button type="submit" id="btnSub" class="buttoncss">Submit</button>
+        <button type="reset" id="btnReset">Cancel</button>
+        <br><br>
+    </main>
+
+    <footer>
+        <h1 class="footer-title">The End</h1>
+ 
+    </footer>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./hours.html">Hours</a></li>
+            <li><a href="./products.html">Products</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li class="mobile" id="testimonies"><a href="./testimonies.html">Testimonies</a></li>
+        </ul>
+    </nav>
+
+</body>
+
+</html>
